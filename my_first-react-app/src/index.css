@@ -6,5 +6,21 @@
 }
 .student p{
   margin:0;
-  
+
+}
+.welcome-message{
+  font-size:2.5em;
+  background-color: rgba(30, 243, 10, 0.596);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  margin:0;
+}
+.login-prompt{
+  font-size:2.5em;
+  background-color: rgba(110, 134, 108, 0.596);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  margin:0;
 }
