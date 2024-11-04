@@ -1,20 +1,10 @@
 
 
 function Button(){
-const styles = {
-    
-        backgroundColor:"hsl(200,100%,50%)",
-        color:"white",
-        padding:"10px 20px",
-        borderRadius: "5px",
-        border:"none",
-        cursor:"pointer",
-      
-    
-}
+const handleClick = () => console.log("Ouch!")
 
-return(<button style = {styles}>
+return(<button onClick ={handleClick} >
     Click me
-</button>)
+       </button>)
 }
 export default Button
